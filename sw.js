@@ -2,7 +2,7 @@
 // - 페이지(index.html): 인터넷 되면 새 버전, 안 되면 저장본 (암호화된 페이지 그대로 저장)
 // - 사진·지도 라이브러리·글꼴: 한 번 받으면 저장해 두고 다시 씀
 // - 지도 타일: 본 곳은 자동 저장, '오프라인 저장' 버튼으로 일정 주변을 미리 저장
-const VER = '2610192245';
+const VER = '2610192252';
 const PAGE = 'page-' + VER, ASSET = 'asset-' + VER, TILE = 'tile-v1';
 const CORE = ['./', './index.html', 'manifest.json', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'];
